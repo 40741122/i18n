@@ -1,0 +1,12 @@
+{ 
+  "namespace1": {
+    "welcome": "歡迎使用 React",
+    "welcome_context_male": "歡迎，先生",
+    "welcome_context_female": "歡迎，女士"
+  },
+  "translation": {
+    "test": "測試",
+    "check": "確認",
+    "learn": "學習"
+  }
+}

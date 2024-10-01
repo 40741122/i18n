@@ -1,24 +1,22 @@
 import logo from './logo.svg';
-import './App.css';
+import { Routes, Route, HashRouter } from 'react-router-dom';
+import HomePage from './page/HomePage';
+import SecondPage from './page/SecondPage';
+import HomePageO from './page/HomePageO';
+import SecondPageO from './page/SecondPageO';
+import './lng/i18n'
+import './lngo/i18n'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <HashRouter>
+      <Routes>
+        <Route path='/' element={<HomePage />} />
+        <Route path="2" element={<SecondPage />} />
+        <Route path='o1' element={<HomePageO />} />
+        <Route path="o2" element={<SecondPageO />} />
+      </Routes>
+    </HashRouter>
   );
 }
 

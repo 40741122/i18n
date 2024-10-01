@@ -1,0 +1,12 @@
+{
+  "namespace1": {
+    "welcome": "Welcome to React",
+    "welcome_context_male": "Welcome, Sir",
+    "welcome_context_female": "Welcome, Madam"
+  },
+  "translation": {
+    "test": "Test",
+    "check": "check",
+    "learn": "learn"
+  }
+}
